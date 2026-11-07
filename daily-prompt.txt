@@ -1,0 +1,10 @@
+DAILY PROMPT (paste into Claude chat with web search on, once a day)
+
+Generate today's Daily CA Challenge: 25 new SSC CGL current affairs MCQs on India and the world.
+Use web search. Use news from the last 7 to 45 days, at least 10 from the last 7 days. Use only PIB, The Hindu, Indian Express, Times of India, DD News, RBI or ministry sources.
+Mix: National/schemes 4, International 3, Economy/banking 3, Sports 3, Awards/books 3, Science/tech/defence 3, Appointments 2, Days/reports/indices 2, States/polity 2. Difficulty: 8 easy, 12 medium, 5 hard.
+Do not repeat any question or fact from earlier days in this chat.
+Verify each fact against two sources and drop anything still developing.
+Output ONLY one JSON object, saved as a file called latest.json:
+{"date":"YYYY-MM-DD","qs":[{"topic":"","d":"easy|medium|hard","q":"","o":["","","",""],"a":0,"e":"1-2 line explanation","s":"source, date"}]}
+"a" is the index (0 to 3) of the correct option.
